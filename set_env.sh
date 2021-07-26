@@ -1,5 +1,6 @@
 export WEBSITE_VNET_ROUTE_ALL=1
 export WEBSITE_DNS_SERVER="168.63.129.16"
+export WEBSITES_PORT=8000
 export DB_NAME="postgres"
 export DB_USER="DB_USER"
 export DB_HOST="DB_HOST"

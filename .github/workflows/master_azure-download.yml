@@ -26,10 +26,11 @@ jobs:
       run: |
         python -m venv venv
         source venv/bin/activate
-        set_env.sh
 
     - name: Install dependencies
-      run: pip install -r requirements.txt
+      run: |
+         set_env.sh
+         pip install -r requirements.txt
 
     # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 

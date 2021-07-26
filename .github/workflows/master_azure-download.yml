@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'azure-download'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_96e66284b70f4b5db7f9ee7884acadd4 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_69e1e69c6aa547c0803af5885177cb8c }}

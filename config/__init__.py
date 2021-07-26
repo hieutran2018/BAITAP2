@@ -1,0 +1,1 @@
+# All Rights Reserved. Copyright (c) 2021 Hitachi Solutions, Ltd.

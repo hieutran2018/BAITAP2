@@ -1,0 +1,12 @@
+# To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
+Flask>=1.0,<=1.1.2
+aiohttp
+azure-storage-file-share
+opencensus-ext-azure
+gunicorn==20.0.4
+
+# Linters
+flake8
+pydocstyle
+pycodestyle
+isort

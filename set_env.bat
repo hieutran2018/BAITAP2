@@ -1,0 +1,16 @@
+set WEBSITE_VNET_ROUTE_ALL=1
+set WEBSITE_DNS_SERVER=168.63.129.16
+set DB_NAME=postgres
+set DB_USER=dbadmin@image-recog-test-db
+set DB_HOST=image-recog-test-db.privatelink.postgres.database.azure.com
+set DB_PASSWORD=7nFvVQEjPVru
+set DB_PORT=5432
+set SYSTEM_STORAGE_NAME=imagerecogtestsys
+set SYSTEM_STORAGE_KEY=SjIKAqbNWm4uHUOHxHNB3K9RaNVNC7qAQpg7cHRLGMMMZQf2m/xhaVBpnZXSr4JgmWliBdmRmf9M9vvC+FLTzQ==
+set AZURE_USER=serviceContainer@imagerecognition.onmicrosoft.com
+set AZURE_PASS=R7Rrmmhw
+set SYSTEM_RESOURCE_GROUP_NAME=pf-system
+set AZURE_INSIGHT_CONNECTION=InstrumentationKey=88fbe81d-3718-489e-9779-d402eebf1a90;IngestionEndpoint=https://japaneast-1.in.applicationinsights.azure.com/
+set ACI_CLIENT_ID=360a8def-bfab-4e05-8d05-cc5c4ccfbb5b
+set ACI_CLIENT_SECRET=t3n6e8~jnX.q71OOMV5mLVnjziLRo80_vt
+set ACI_TENANT_ID=daa1efd1-b16f-43d8-9f51-0f08aacd6362

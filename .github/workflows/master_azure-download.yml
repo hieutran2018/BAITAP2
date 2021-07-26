@@ -28,9 +28,7 @@ jobs:
         source venv/bin/activate
 
     - name: Install dependencies
-      run: |
-         chmod +x set_env.sh
-         pip install -r requirements.txt
+      run: pip install -r requirements.txt
 
     # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
@@ -61,4 +59,4 @@ jobs:
         with:
           app-name: 'azure-download'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_faad4434318d4ca49e221a2d71524666 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_96e66284b70f4b5db7f9ee7884acadd4 }}
